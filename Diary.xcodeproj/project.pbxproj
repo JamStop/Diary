@@ -15,6 +15,7 @@
 		BFF3C4571C02AC090087F60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF3C4551C02AC090087F60D /* LaunchScreen.storyboard */; };
 		BFF3C4621C02AC090087F60D /* DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF3C4611C02AC090087F60D /* DiaryTests.swift */; };
 		BFF3C46D1C02AC090087F60D /* DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF3C46C1C02AC090087F60D /* DiaryUITests.swift */; };
+		BFF3C47B1C02AFC40087F60D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF3C47A1C02AFC40087F60D /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BFF3C4681C02AC090087F60D /* DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF3C46C1C02AC090087F60D /* DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryUITests.swift; sourceTree = "<group>"; };
 		BFF3C46E1C02AC090087F60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF3C47A1C02AFC40087F60D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BFF3C4551C02AC090087F60D /* LaunchScreen.storyboard */,
 				BFF3C4581C02AC090087F60D /* Info.plist */,
 				BFF3C4501C02AC090087F60D /* Diary.xcdatamodeld */,
+				BFF3C47A1C02AFC40087F60D /* CoreDataStack.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				BFF3C4521C02AC090087F60D /* Diary.xcdatamodeld in Sources */,
 				BFF3C44C1C02AC090087F60D /* ViewController.swift in Sources */,
 				BFF3C44A1C02AC090087F60D /* AppDelegate.swift in Sources */,
+				BFF3C47B1C02AFC40087F60D /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
